@@ -1,0 +1,87 @@
+body,
+html,
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0 0 0 0;
+    overflow: hidden hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    background-color: rgb(54, 69, 76);
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+}
+
+.header img {
+    position: absolute;
+    right: 0%;
+}
+
+.left-aside {
+    background-color: rgb(235, 235, 235);
+    height: 100%;
+}
+
+.left-aside .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 87, 119);
+    border-bottom: medium solid rgb(0, 87, 119);
+    padding: 18px;
+    padding-left: 16px;
+    padding-right: 88px;
+}
+
+.left-aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 16px;
+    padding-top: 24px;
+    width: 60%;
+}
+
+.left-aside ul li {
+    padding: 4px 0px;
+    color: rgb(0, 87, 119);
+    border-bottom: thin solid rgb(0, 87, 119);
+    margin-bottom: 5px;
+}
+
+.left-aside ul li a {
+    text-decoration: none;
+    color: rgb(0, 87, 119);
+}
+
+.left-aside .bottom li {
+    border-bottom: medium solid rgb(0, 87, 119);
+}
+
+.left-aside .buttom img {
+    position: absolute;
+    left: 0%;
+}
+
+.container .main-content .iframe {
+    border-style: hidden;
+}
+
+.iframe {
+    margin-left: 25%;
+    width: 100%; 
+    margin-right: 25%;
+}
+
+.main-content {
+    width: 100%;
+}
+
